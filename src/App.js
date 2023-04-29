@@ -40,7 +40,7 @@ const CarRent = () => {
             alert("please fill the all required fields");
             return false;
         }
-        axios.post("http://localhost:3000/booking", {
+        axios.post("https://carrentbackend.onrender.com/booking", {
             firstname: firstname,
             lastname: lastname,
             VehicleType: VehicleType,
